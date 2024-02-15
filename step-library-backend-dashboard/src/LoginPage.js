@@ -81,7 +81,7 @@ export default function LoginPage() {
     <>
 
     <div className="d-flex flex-column justify-content-center align-items-center  " style={{height:"90vh"}}>
-      <div className="shadow-lg p-5 rounded w-25">
+      <div className="shadow-lg p-5 rounded w-25 " style={{minWidth:"350px"}}>
       <div className="d-flex justify-content-center aling-items-center   "> <h1>Login </h1></div>
             <form className="d-flex flex-column justify-content-center align-items-center gap-3 "
               onSubmit={login}
